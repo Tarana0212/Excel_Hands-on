@@ -1,0 +1,54 @@
+                                                             Advance Excel Assignment 5
+
+1. How many types of conditions are available in conditional formatting on Excel?
+
+Ans. Higlights cell rules : will highlight cells according to the condition
+     Top/Bottom rules :  enables you to apply formatting to cells that satisfy a statistical condition in the range.
+     Data Bars: in built graphs can be built within the cell
+     Color scales : based on values color will keep on changing
+     Icon sets : based on values icon will keep on changing
+  
+2. How to insert border in Excel with Format Cells dialog?
+
+Ans. Select one or more cells to which you'd like to add borders.
+
+    Open the Format Cells dialog box by doing one of the following:
+
+    Click the down arrow next to the Borders button, and then click More Borders at the bottom of the drop-down list.
+
+    Right click the selected cells and choose Format Cells… from the context menu.
+
+   Press Ctrl+1 shortcut.
+   In the Format Cells dialog box, switch to the Border tab and choose the line style and color first. 
+   And then, either use Presets to add the outside or inside borders or construct the desired border by selecting individual elements 
+   such as border top, bottom, right or left. The preview diagram will reflect the changes immediately.
+   When done, click OK.
+
+3. How to Format Numbers as Currency in Excel?
+
+Ans. Select the cells that you want to format and then, in the Number group on the Home tab, click the down arrow in the Number Format box.
+     Choose either Currency or Accounting.
+
+4. What are the steps to format numbers in Excel with the Percent style?
+
+Ans. On the Home tab, in the Number group, click the icon next to Number to display the Format Cells dialog box.
+     In the Format Cells dialog box, in the Category list, click Percentage.
+     In the Decimal places box, enter the number of decimal places that you want to display. 
+     For example, if you want to see 10% instead of 10.00%, enter 0 in the Decimal places box.
+
+5. What is a shortcut to merge two or more cells in excel?
+
+Ans. Merge Cells: ALT H+M+M
+     Merge & Center: ALT H+M+C
+     Merge Across: ALT H+M+A
+     Unmerge Cells: ALT H+M+U
+
+6. How do you use text commands in Excel?
+
+Ans. =TEXT(Value you want to format, "Format code you want to apply")
+
+     The TEXT function lets you change the way a number appears by applying formatting to it with format codes. 
+     It's useful in situations where you want to display numbers in a more readable format, or you want to combine numbers with text or symbols.
+     
+     More functions:
+     Trim, proper, upper,lower,len,left,right,mid,concatenate,find,serach,replace,substitute.

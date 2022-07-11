@@ -1,0 +1,48 @@
+                                                            Advance Excel Assignment 1 
+
+1. What do you mean by cells in an excel sheet? 
+
+Ans: Cells are the basic building blocks of a worksheet. Cells are identified by the Reference, which is found by combining the Column Letter with the Row Number. 
+For example, the cell in Column "C" in Row "3" would be cell C3.
+
+2. How can you restrict someone from copying a cell from your worksheet? 
+
+Ans: In order to protect your worksheet from getting copied, you need to go into Menu bar >Review > Protect sheet > Password. 
+     By entering password, you can secure your worksheet from getting copied by others.
+     By default, when you protect a worksheet, all the cells on the worksheet are locked, and users cannot make any changes to a locked cell.
+
+3. How to move or copy the worksheet into another workbook?
+
+Ans:  move or copy in the same workbook  –
+
+Method 1: Press CTRL and drag the worksheet tab to the tab location you want.
+
+Method 2:
+1.	Right click on the worksheet tab and select Move or Copy.
+2.	Select the Create a copy checkbox.
+3.	Under Before sheet, select where you want to place the copy.
+4.	Select OK. 
+
+ move or copy in the same workbook  –
+
+1.	Right click on the tab that you want to copy, and then click Move or Copy…
+2.	In the Move or Copy dialog box, do the following:
+3.	Under To book, choose the target file. To place a copy into a new workbook, select (new book).
+4.	Under Before sheet, specify where to put the copy.
+5.	Select the Create a copy box.
+6.	Click OK.
+
+4.Which key is used as a shortcut for opening a new window document?
+
+Ans: Ctrl+N
+
+5. What are the things that we can notice after opening the Excel interface? 
+
+Ans: Customize access tootlbar.
+     Ribbons.
+     
+6. When to use a relative cell reference in excel?
+
+Ans: Relative references are used when we want to perform a similar operation on multiple cells and the formula must change according to the relative address of column and row.
+ 
+

@@ -1,0 +1,75 @@
+                                                                 Advance Excel Assignment 2
+
+1. What does the dollar($) sign do?
+
+Ans. Indicates absolute cell references in formulas.
+     When you use a $ sign before the cell reference (such as $C$2), you’re telling Excel to keep referring to cell C3 even when you copy and paste the formula.
+
+2. How to Change the Reference from Relative to Absolute (or Mixed)?
+
+Ans. Select the cell that contains the formula.
+
+     In the formula bar , select the reference that you want to change.
+
+     Press F4 to switch between the reference types.
+
+3. Explain the order of operations in excel?
+
+Ans. Excel solves formulas in the following order:
+
+     Parentheses
+
+     Reference operators
+
+     Negation
+
+     Percent
+
+     Exponents 
+
+     Multiplication and Division
+
+     Addition and Subtraction
+
+     Concatenation
+
+     Logical operators
+
+     Note: If a formula contains multiple operators with the same priority (e.g. multiplication and division, or addition and subtraction), 
+           Excel will evaluate the operators from left to right.
+
+4. What, according to you, are the top 5 functions in excel and write a basic syntax
+for any of two?
+
+Ans. The syntax formula for sum function is “=SUM” (number1, number2, etc.).
+
+     The syntax formula for text function is “=TEXT” (value, format_text).
+
+     The syntax formula for the average function is “AVERAGE” (number1, number2, etc.).
+
+     The syntax formula for the concatenate function is “CONCATENATE” (text1, [text2…text_n]),
+
+     The VLookup formula is “=VLOOKUP” (lookup_value, table_array, col_index_num, *range_lookup*).
+
+5. When would you use the subtotal function?
+
+Ans. Sometimes, we need data based on different categories. SUBTOTALS help us to get the totals of several columns of data broken down into various categories.
+     Subtotal function returns a subtotal in a list or database.
+     SUBTOTAL can return a SUM, AVERAGE, COUNT, MAX, and others.
+     SUBTOTAL function can either include or exclude values in hidden rows.
+
+6. What is the syntax of the vlookup function? Explain the terms in it?
+
+Ans. =VLOOKUP(What you want to look up, where you want to look for it, the column number in the range containing the value to return, return an Approximate or Exact match – indicated as 1/TRUE, or 0/FALSE).
+
+     lookup_value - It is the value to be found in the first column of the table.
+
+     table_array - It is a table of text, numbers or logical values. Table_array can be a cell reference or a range name.
+
+     col_index_num - It is the column number in table_array from which the matching value should be returned.
+
+     range_lookup -
+     1 (TRUE) - Find the closest match in first column sorted in ascending order.
+     0 (FALSE) - Find an exact match
+
+     Note : If you don't enter a value in the fourth parameter "range_lookup" of vlookup, excel will consider 1 as a logical value i.e. closest match.
